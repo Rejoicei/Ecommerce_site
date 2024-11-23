@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    color: #ff6347;
+  }
+  
+  .navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .navbar .cart-link {
+    position: relative;
+  }
+  
+  .navbar .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+  }
+  
